@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地理問答遊戲</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>地理問答遊戲</h1>
+        <p>選擇難度開始挑戰！</p>
+        <button id="easy-btn">簡單</button>
+        <button id="medium-btn">普通</button>
+        <button id="hard-btn">困難</button>
+    </div>
+    <div id="game-screen" style="display: none;">
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <button id="submit-btn">提交</button>
+        <p id="feedback"></p>
+        <p id="score">分數: 0 / 15</p>
+    </div>
+    <div id="end-screen" style="display: none;">
+        <h2>遊戲結束</h2>
+        <p id="final-score"></p>
+        <button id="restart-btn">重新開始</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
